@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js" type="text/javascript"></script>
+    <link href="style/style.css" rel="stylesheet">
+    <title>Kazemi-nezhad (tic tac toe)</title>
+</head>
+<body>
+    <div class="container">
+        <div id="winner_alert" class="row"></div>
+        <div class="row">
+            <div class="game_container">
+                <div class="game_container_top">
+                    <div class="block_container">
+                        <div class="timer_container">
+                            <div id="playerX_timer">20</div>
+                            <div class="player_timer_ttl"> X زمان</div>
+                            <div id="playerO_timer">20</div>
+                            <div class="player_timer_ttl"> O زمان</div>
+                        </div>
+                    </div>
+                    <div class="block_container">
+                        <div class="tbl">
+                            <div id="D1" class="cells">.</div>
+                            <div id="D2" class="cells">.</div>
+                            <div id="D3" class="cells">.</div>
+                            <div id="D4" class="cells">.</div>
+                            <div id="D5" class="cells">.</div>
+                            <div id="D6" class="cells">.</div>
+                            <div id="D7" class="cells">.</div>
+                            <div id="D8" class="cells">.</div>
+                            <div id="D9" class="cells">.</div>
+                        </div>
+                    </div>
+                    <div class="block_container">
+                        <div class="turn_container">
+                            <div class="player_turn_ttl">نوبت بازیکن</div>
+                            <div id="player_turn">X</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game_container_bottom">
+                    <div class="btn_container">
+                        <button id="start_btn">شروع</button>
+                        <button id="stop_btn">توقف</button>
+                        <button id="reset_btn">بازنشانی</button>
+                        <button id="redo_btn">بازگشت به حرکت قبل</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
