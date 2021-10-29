@@ -9,16 +9,24 @@
 </head>
 <body>
     <div class="container">
-        <div id="winner_alert" class="row"></div>
         <div class="row">
+            <div id="winner_alert" class="row"></div>
             <div class="game_container">
                 <div class="game_container_top">
-                    <div class="block_container">
-                        <div class="timer_container">
-                            <div id="playerX_timer">20</div>
-                            <div class="player_timer_ttl"> X زمان</div>
-                            <div id="playerO_timer">20</div>
-                            <div class="player_timer_ttl"> O زمان</div>
+                    <div id="statistic_holder">
+                        <div class="block_container">
+                            <div class="timer_container">
+                                <div id="playerX_timer">20</div>
+                                <div class="player_timer_ttl"> X زمان</div>
+                                <div id="playerO_timer">20</div>
+                                <div class="player_timer_ttl"> O زمان</div>
+                            </div>
+                        </div>
+                        <div class="block_container">
+                            <div class="turn_container">
+                                <div class="player_turn_ttl">نوبت بازیکن</div>
+                                <div id="player_turn">X</div>
+                            </div>
                         </div>
                     </div>
                     <div class="block_container">
@@ -32,12 +40,6 @@
                             <div id="D7" class="cells">.</div>
                             <div id="D8" class="cells">.</div>
                             <div id="D9" class="cells">.</div>
-                        </div>
-                    </div>
-                    <div class="block_container">
-                        <div class="turn_container">
-                            <div class="player_turn_ttl">نوبت بازیکن</div>
-                            <div id="player_turn">X</div>
                         </div>
                     </div>
                 </div>
